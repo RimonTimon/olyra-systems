@@ -5,7 +5,7 @@ import Services from './components/Services';
 import Process from './components/Process';
 import About from './components/About';
 import Team from './components/Team';
-import Testimonials from './components/Testimonials';
+
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import './index.css';
@@ -23,7 +23,7 @@ function App() {
         <Team />
         <Clients />
         <Contact/>
-        {/* <Testimonials /> */}
+
       </main>
       <Footer />
     </div>

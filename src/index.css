@@ -1150,49 +1150,7 @@ footer {
 }
 
 
-
 /* Responsive Adjustments */
-@media (max-width: 768px) {
-  .compact-contact-content {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .compact-contact-header h2 {
-    font-size: 1.6rem;
-  }
-  
-  .compact-form-row {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .compact-contact-section {
-    padding: 2rem 0;
-  }
-  
-  .compact-benefits-section,
-  .compact-form-container {
-    padding: 1.2rem;
-  }
-}
-/* finish contact */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1200px) {
   .contact-container {
     gap: 2rem;
@@ -1236,6 +1194,20 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .compact-contact-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .compact-contact-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .compact-form-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
@@ -1365,3 +1337,15 @@ footer {
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .compact-contact-section {
+    padding: 2rem 0;
+  }
+
+  .compact-benefits-section,
+  .compact-form-container {
+    padding: 1.2rem;
+  }
+}
+/* finish contact */

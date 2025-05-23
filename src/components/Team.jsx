@@ -30,9 +30,10 @@ const Team = () => {
     image: "./src/assets/images/salman.jpg",
     social: [
       { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/zuccedscan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-      { icon: <FaInstagram />, url: "https://www.instagram.com/zuccedscan?igsh=MXFwbDFoYXJ5aXlubA==" }
+      { icon: <FaGithub />, url: "https://github.com/zuccedscan/" }
     ]
-  }
+  },
+
 ];
 
 
